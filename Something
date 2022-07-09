@@ -1,0 +1,17 @@
+import nextcord 
+from nextcord.ext import commands
+
+client = commands.Bot(command_prefix = "Genius ")
+
+
+@client.event
+async def on_ready():
+  print("Wsg Nerds")
+
+  @client.command()
+  async def hello(ctx)
+  await ctx.send("Me Me Smart Boi")
+client.run("OTg3MTY0MDkxNDA1NzIxNjMw.GCtW9I.Mw_YxzNm3n3BnORoNg228OkFOA7hK4gWUNF1lg")
+
+
+
